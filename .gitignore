@@ -1,0 +1,3 @@
+# ignore all audio files in all subdirs
+*.flac
+*.wav
