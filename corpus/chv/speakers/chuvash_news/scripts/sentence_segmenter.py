@@ -26,6 +26,7 @@ for par in intxt.split('\n'):
 	for line in lines:
 		for k,v in abbr_to_id.items():
 			line = line.replace(v, k)
-		if line.strip() == '': continue
+		line = line.strip()
+		if line == '': continue
 		print(str(sent_id).zfill(4) + '\t' +line)
 		sent_id += 1
