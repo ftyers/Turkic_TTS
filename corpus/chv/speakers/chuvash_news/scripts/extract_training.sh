@@ -12,7 +12,7 @@ for id in `cat track-id-list.txt`; do
 	if [[ $txt_sent_no -eq $audio_files_no ]]; then
 		for sid in `cat transcripts/txt/$id.txt | cut -f1`; do 
 			cat transcripts/txt/$id.txt | grep -P "^$sid\t" | cut -f2 > $output_dir/$id.$sid.txt
-			cp audio/split/trim_clean_$id.$sid.flac $output_dir
+			cp audio/split/trim_clean_$id.$sid.flac $output_dir/$id.$sid.flac
 		done	
 	fi
 done
