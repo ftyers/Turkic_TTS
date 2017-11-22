@@ -20,3 +20,14 @@ for i in ../orig/*.flac; do
     sox $i clean_${filename} noisered begin_silence_${filename/%.flac}.prof 0.21;
 done
 
+# take the cleaned files and trim off the first 3 seconds
+for i in clean_*.flac; do 
+	dur=`soxi -D $i`; 
+	sox $i /tmp/$i trim 3 `echo "$dur-3.0" | bc -l`; 
+done
+
+# take the cleaned files and trim off the last 3 seconds
+for i in clean_*.flac; do 
+	sox /tmp/$i trim_${i##*/} trim 0 -3; 
+done
+
