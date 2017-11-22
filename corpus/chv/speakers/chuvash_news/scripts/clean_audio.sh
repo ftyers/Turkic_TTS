@@ -16,6 +16,7 @@ done
 # apply noise reduction to file from its own noise silence profile
 for i in ../orig/*.flac; do
     filename=${i##*/};
+    # 0.21 is how much noise gets bleached
     sox $i clean_${filename} noisered begin_silence_${filename/%.flac}.prof 0.21;
 done
-# for i in clean_*; do filename=${i%.flac}; sox $i ../split/${filename}_split_.flac silence -l 1 0.1 0.85% 1 1.0 0.85% : newfile : restart; done
+
