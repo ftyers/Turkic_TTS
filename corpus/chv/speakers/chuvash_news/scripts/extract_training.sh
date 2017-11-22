@@ -4,6 +4,7 @@
 
 output_dir=$1
 
+
 for id in `cat track-id-list.txt`; do
 	txt_sent_no=`cat transcripts/txt/$id.txt | wc -l`;
 	audio_files_no=`ls -1 audio/split/trim_clean_$id.*.flac | wc -l`
