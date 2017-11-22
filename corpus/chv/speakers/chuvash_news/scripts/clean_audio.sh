@@ -10,7 +10,7 @@ done
 
 echo "Create noise profile..."
 # create special noise profile file from silence selection
-for i in begin_silence_*; do
+for i in begin_silence_*.flac; do
     sox $i -n noiseprof ${i%.flac}.prof;
 done
 
