@@ -1,5 +1,10 @@
 # Data for Chuvash TTS
 
+## Prerequisites
+
+* From Debian/Ubuntu: python-eyed3 python3-scipy python3-pydub, python3-sklearn
+* From GitHub: https://github.com/hmmlearn/hmmlearn
+
 ## Procedure for extracting training data
 
 1. 
