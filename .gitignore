@@ -2,5 +2,7 @@
 *.wav
 
 # ignore audio files in the processing dirs
-./corpus/chv/speakers/chuvash_news/audio/proc/*
-./corpus/chv/speakers/chuvash_news/audio/split/*
+./corpus/chv/speakers/chuvash_news/audio/proc/*.flac
+./corpus/chv/speakers/chuvash_news/audio/split/*.flac
+./corpus/chv/speakers/chuvash_news/audio/proc/*.txt
+./corpus/chv/speakers/chuvash_news/audio/split/*.txt
