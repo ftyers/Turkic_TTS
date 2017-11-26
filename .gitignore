@@ -1,3 +1,6 @@
-# ignore all audio files in all subdirs
-./corpus/chv/speakers/chuvash_news/audio/proc/*
+# ignore all wav files in all subdirs
 *.wav
+
+# ignore audio files in the processing dirs
+./corpus/chv/speakers/chuvash_news/audio/proc/*
+./corpus/chv/speakers/chuvash_news/audio/split/*
