@@ -1,0 +1,255 @@
+# text[eng] = The Chuvash culture ministry's national republican arts centre together with the education monitoring and development centre in Cheboksary today * Chuvash Christmas tree.
+"<Чӑваш Енӗн>"
+	"Чӑваш·Ен" np top gen @nmod:poss #1->3
+"<Культура>"
+	"культура" n attr @compound #2->3
+"<министерствин>"
+	"министерство" n gen @nmod:poss #3->7
+"<Халӑх>"
+	"халӑх" n nom @nmod:poss #4->5
+"<пултарулӑхӗн>"
+	"пултарулӑх" n px3sp gen @nmod:poss #5->7
+"<республикӑри>"
+	"республика" n px3sp loc attr @amod #6->7
+"<центрӗ>"
+	"центр" n px3sp nom @nsubj #7->19
+"<Шупашкар>"
+	"Шупашкар" np top nom @nmod:poss #8->9
+"<хулинчи>"
+	"хула" n px3sp loc attr @amod #9->14
+"<вӗренӗве>"
+	"вӗренӳ" n dat @obl #10->11
+"<мониторинглакан>"
+	"мониторингле" v iv gpr_pres @conj #11->13
+"<тата>"
+	"тата" cnjcoo @cc #12->13
+"<аталантаракан>"
+	"аталан" v tv caus gpr_pres @acl:relcl #13->14
+"<центрпа>"
+	"центр" n ins @obl #14->19
+"<пӗрле>"
+	"пӗрле" post @case #15->14
+"<паян>"
+	"паян" adv @advmod #16->19
+"<Чӑваш>"
+	"чӑваш" n nom @nmod:poss #17->18
+"<елки>"
+	"елка" n px3sp nom @obj #18->19
+"<ирттернӗ>"
+	"ирт" v tv caus past @root #19->0
+"<.>"
+	"." sent @punct #20->19
+
+"<Ӑна>"
+	"ӑн" n dat
+	"вӑл" prn pers p3 sg dat
+"<республикӑри>"
+	"республика" n loc attr @amod
+"<шкулсенче>"
+	"шкул" n pl loc @obl
+"<кӗҫӗн>"
+	"кӗҫӗн" adj @amod
+"<классенче>"
+	"класс" n pl loc @obl
+"<вӗренекен>"
+	"вӗренекен" n nom
+"<ачасем>"
+	"ача" n pl nom
+"<валли>"
+	"валли" post @case
+"<йӗркеленӗ>"
+	"йӗркелен" v tv fut p3 sg @root
+"<.>"
+	"." sent @punct
+
+"<Ҫавна>"
+	"ҫав" prn dem dat
+"<май>"
+	"май" post
+	"май" n nom
+	"май" n px3sp nom
+"<ачасем>"
+	"ача" n pl nom
+"<«>"
+	"«" lquot @punct
+"<Тӗлӗнтермӗш>"
+	"тӗлӗнтермӗш" adj
+	"тӗлӗнтермӗш" n nom
+	"тӗлӗнтермӗш" n px3sp nom
+;	"тӗлӗнтермӗш" adj advl REMOVE:34
+"<Юр>"
+	"юр" n nom
+"<Пике>"
+	"пике" n nom
+"<»>"
+	"»" rquot @punct
+"<конкурсра>"
+	"конкурс" n loc
+"<та>"
+	"та" cnjcoo
+"<хӑйсен>"
+	"хӑйсем" prn ref gen
+"<пултарулӑхне>"
+	"*пултарулӑхне"
+"<кӑтартнӑ>"
+	"кӑтарт" v tv past @root
+"<.>"
+	"." sent @punct
+
+"<Елкӑри>"
+	"елка" n loc attr
+"<вӑйӑ>"
+	"вӑйӑ" n attr @compound
+"<->"
+	"-" guio @punct
+"<конкурс>"
+	"конкурс" n nom @nsubj
+"<йӑлтах>"
+	"йӑлт" adj
+		"ах" emph
+;	"йӑлт" adj advl REMOVE:34
+;		"ах" emph
+"<чӑвашла>"
+	"чӑвашла" adj
+	"чӑвашла" adv
+"<пулнӑ>"
+	"пул" v iv past @cop
+"<.>"
+	"." sent @punct
+
+"<Маттур>"
+	"маттур" adj @amod
+"<та>"
+	"та" cnjcoo @cc
+"<пултаруллӑскерсене>"
+	"пултаруллӑскер" adj subst_скер pl dat 
+"<Хӗл>"
+	"хӗл" n attr @flat
+"<Мучипе>"
+	"мучи" n ins @nmod
+"<Юр>"
+	"юр" n attr @flat
+"<Пике>"
+	"пике" n nom 
+"<мухтанӑ>"
+	"мухта" v tv past @parataxis
+"<,>"
+	"," cm @punct
+"<парнине>"
+	"пар" v tv ger_past dat
+"<те>"
+	"та" cnjcoo
+"<шеллемен>"
+	"шелле" v tv neg past @root
+"<.>"
+	"." sent @punct
+
+"<«>"
+	"«" lquot @punct
+"<Юр>"
+	"юр" n attr @compound
+"<Пике>"
+	"пике" n nom
+"<—>"
+	"—" guio @punct
+"<2017>"
+	"2017" num
+"<»>"
+	"»" rquot @punct
+"<ята>"
+	"ят" n dat
+"<Канаш>"
+	"Канаш" np top nom @nmod:poss
+"<районӗнчи>"
+	"район" n px3sp loc attr @amod
+"<Анаткас>"
+	"*Анаткас"
+"<Уҫырмари>"
+	"*Уҫырма"
+"<Арина>"
+	"Арина" np ant f nom @flat:name
+"<Филимонова>"
+	"Филимонова" np cog f nom
+"<тивӗҫнӗ>"
+	"тивӗҫ" v tv past @root
+"<.>"
+	"." sent @punct
+
+"<Сӑмах>"
+	"сӑмах" n nom
+"<май>"
+	"май" post
+	"май" n nom
+"<,>"
+	"," cm @punct
+"<хӑйӗн>"
+	"хӑй" prn ref gen @nmod:poss
+"<ҫурчӗллӗ>"
+	"*ҫурчӗллӗ"
+"<пулнӑ>"
+	"пул" v tv gpr_past @cop
+"<Чӑваш>"
+	"чӑваш" n attr @compound
+"<патшалӑх>"
+	"патшалӑх" n nom
+"<ҫамрӑксен>"
+	"ҫамрӑк" adj subst pl nom
+"<театрӗ>"
+	"театр" n px3sp nom @conj
+"<те>" 
+	"та" cnjcoo @cc
+"<Чӑваш>"
+	"чӑваш" n nom @nmod:gen
+"<елкине>"
+	"елка" n px3sp dat @obj
+"<йыхравлать>"
+	"йыхравла" v tv pres p3 sg @root
+"<.>"
+	"." sent @punct
+
+"<Аса>"
+	"ас" v tv ger17
+"<илтеретпӗр>"
+	"ил" v tv caus pres p1 pl
+"<,>"
+	"," cm
+"<ӑна>"
+	"ӑн" n dat
+	"ӑн" n px3sp dat
+"<вӑл>"
+	"вӑл" prn pers p3 sg nom @nsubj
+"<ҫӗнӗ>"
+	"ҫӗнӗ" adj @amod
+"<ҫӗрте>"
+	"ҫӗр" n loc @obl
+"<,>"
+	"," cm @punct
+"<унччен>"
+	"унччен" adv @advmod
+"<«>"
+	"«" lquot @punct
+"<Ҫеҫпӗл>"
+	"Ҫеҫпӗл" np cog mf nom @compound
+"<»>"
+	"»" rquot @punct
+"<кинотеатр>"
+	"кинотеатр" n nom @acl:relcl
+"<пулнӑ>"
+	"пул" v iv gpr_past @cop
+"<ҫуртра>"
+	"ҫурт" n loc @obl
+"<,>"
+	"," cm @punct
+"<ыран>"
+	"ыран" adv @advmod
+"<,>"
+	"," cm @punct
+"<раштавӑн>"
+	"раштав" n gen @nmod:poss
+"<26-мӗшӗнче>"
+	"26" num ord subst px3sp loc @obl
+"<ирттерӗ>"
+	"ирттер" v tv fut p3 sg @root
+"<.>"
+	"." sent @punct
+
