@@ -4,6 +4,7 @@
 # segments matches the number of sentences in the text
 
 output_dir=$1
+mkdir -p $output_dir/txt $output_dir/wav
 
 if [[ $# -lt 1 ]]; then
 	echo "bash scripts/extract_training.py <target directory>"
@@ -27,9 +28,9 @@ if [[ -d $1 ]]; then
 	
 		if [[ $txt_sent_no -eq $audio_files_no ]]; then
 			for sid in `cat transcripts/txt/$id.txt | cut -f1`; do 
-				cat transcripts/txt/$id.txt | grep -P "^$sid\t" | cut -f2 > $output_dir/$id.$sid.txt
-				sox audio/split/trim_clean_$id.$sid.flac $output_dir/$id.$sid.wav
-				len=`sox $output_dir/$id.$sid.wav -n stat 2>&1 | grep 'Leng' | cut -f2 -d':' | tr -d ' '`;
+				cat transcripts/txt/$id.txt | grep -P "^$sid\t" | cut -f2 > $output_dir/txt/$id.$sid.txt
+				sox audio/split/trim_clean_$id.$sid.flac $output_dir/wav/$id.$sid.wav
+				len=`sox $output_dir/wav/$id.$sid.wav -n stat 2>&1 | grep 'Leng' | cut -f2 -d':' | tr -d ' '`;
 				sec=`echo "$sec + $len" | bc -l`;
 			done	
 			echo $sec

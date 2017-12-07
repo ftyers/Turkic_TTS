@@ -2,8 +2,8 @@
 
 ## Prerequisites
 
-* From Debian/Ubuntu: python-eyed3 python3-scipy python3-pydub, python3-sklearn
-* From GitHub: https://github.com/hmmlearn/hmmlearn
+* From Debian/Ubuntu: sudo apt-get install python3-pip python3-numpy python3-scipy python3-sklearn; sudo pip3 install pydub eyeD3 hmmlearn
+
 
 ## Procedure for extracting training data
 
