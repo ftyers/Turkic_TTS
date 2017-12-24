@@ -51,3 +51,20 @@ else
 	echo "No such directory $1";
 fi;
 
+
+
+for ext in "txt" "wav"; do 
+
+    cd $output_dir/$ext
+
+    for i in *$ext; do
+	
+	filename=$(echo ${i%.$ext} | sed 's/\./-/g'); mv $i $filename.$ext;
+
+    done
+
+    cd ../..
+    	    
+done
+
+
