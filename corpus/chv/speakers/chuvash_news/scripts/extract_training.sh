@@ -12,9 +12,12 @@ if [[ $# -lt 1 ]]; then
 fi
 
 if [[ -d $1 ]]; then
+	total=0
+	proc=0
 	sec=0
 	dur=0
 	for id in `cat track-id-list.txt`; do
+		total=`expr $total + 1`;
 		if [[ ! -f transcripts/txt/$id.txt ]]; then
 			continue
 		fi
@@ -24,7 +27,7 @@ if [[ -d $1 ]]; then
 		fi
 		txt_sent_no=`cat transcripts/txt/$id.txt | wc -l`;
 		audio_files_no=`ls -1 audio/split/trim_clean_$id.*.flac | wc -l`
-		echo -n $id" "$txt_sent_no" "$audio_files_no" ";
+		echo -ne $id"\t"$txt_sent_no"\t"$audio_files_no"\t";
 	
 		if [[ $txt_sent_no -eq $audio_files_no ]]; then
 			for sid in `cat transcripts/txt/$id.txt | cut -f1`; do 
@@ -33,7 +36,9 @@ if [[ -d $1 ]]; then
 				len=`sox $output_dir/wav/$id.$sid.wav -n stat 2>&1 | grep 'Leng' | cut -f2 -d':' | tr -d ' '`;
 				sec=`echo "$sec + $len" | bc -l`;
 			done	
-			echo $sec
+			sdur=`date -u -d @"$sec" +"%T"`
+			proc=`expr $proc + 1`;
+			echo -e $sec"\t"$sdur"\t"$proc"/"$total;
 		else
 			echo ""
 		fi
@@ -41,6 +46,7 @@ if [[ -d $1 ]]; then
 	dur=`date -u -d @"$sec" +"%T"`
 	echo $dur
 	echo $sec
+	echo $proc"/"$total
 else
 	echo "No such directory $1";
 fi;
