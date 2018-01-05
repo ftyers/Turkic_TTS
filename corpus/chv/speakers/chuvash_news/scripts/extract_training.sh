@@ -5,9 +5,10 @@
 
 output_dir=$1
 mkdir -p $output_dir/txt $output_dir/wav
+err_file=$output_dir"_err.log"
 
 if [[ $# -lt 1 ]]; then
-	echo "bash scripts/extract_training.py <target directory>"
+	echo "bash scripts/extract_training.sh <target directory>"
 	exit;
 fi
 
@@ -40,6 +41,7 @@ if [[ -d $1 ]]; then
 			proc=`expr $proc + 1`;
 			echo -e $sec"\t"$sdur"\t"$proc"/"$total;
 		else
+			echo $id >> $err_file;
 			echo ""
 		fi
 	done
