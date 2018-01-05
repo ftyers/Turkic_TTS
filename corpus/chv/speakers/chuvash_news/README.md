@@ -26,3 +26,11 @@ copy the sentence and audio for that sentence into separate files with the same 
 suffixes in the output directory. It will only include those files which are compatible in terms of how
 many sentences and audio segments there are.
 
+## Procedure for adding manual segmentation
+
+Sometimes the automatic segmentation does not align properly with the text. In this case 
+you can specify the manual segmentation in `./audio/manual`. The manual segmentation
+should be in the same format as the output of the automatic segmenter.
+
+
+
