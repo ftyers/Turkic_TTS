@@ -32,5 +32,22 @@ Sometimes the automatic segmentation does not align properly with the text. In t
 you can specify the manual segmentation in `./audio/manual`. The manual segmentation
 should be in the same format as the output of the automatic segmenter.
 
+### Example
 
+In the `./audio/` subdirectory:
+
+```
+$ python3 ../scripts/audio_segmenter.py proc/trim_clean_17289.flac > manual/17289.seg.txt
+$ cat manual/17289.seg.txt
+0001,1.9400,11.6400
+0002,14.2200,21.6000
+0003,24.6400,33.5800
+0004,35.3800,39.4200
+0005,41.8800,46.7200
+0006,49.0400,54.2800
+0007,57.6800,64.6200
+0008,67.8400,71.0000
+```
+
+Now edit the file `manual/17289.seg.txt` and fix the segmentation.
 
