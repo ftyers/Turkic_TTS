@@ -1,6 +1,6 @@
-# sent_id = 14459:1:0
+# sent_id = 14459.vislcg:1:0
 # text =  Чӑваш Енӗн Культура министерствин Халӑх пултарулӑхӗн республикӑри центрӗ Шупашкар хулинчи вӗренӗве мониторинглакан тата аталантаракан центрпа пӗрле паян Чӑваш елки ирттернӗ.
-# text[eng] = The Chuvash culture ministry's national republican arts centre together with the education monitoring and development centre in Cheboksary today * Chuvash Christmas tree.
+# text[eng] = The Chuvash culture ministry's national republican arts centre together with the education monitoring and development centre in Cheboksary today celebrated Chuvash Christmas.
 1	Чӑваш Енӗн	Чӑваш·Ен	PROPN	np	Case=Gen	3	nmod:poss	_	_
 2	Культура	культура	NOUN	n	Case=Nom	3	compound	_	_
 3	министерствин	министерство	NOUN	n	Case=Gen	7	nmod:poss	_	_
@@ -21,4 +21,31 @@
 18	елки	елка	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	19	obj	_	_
 19	ирттернӗ	ирт	VERB	v	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 20	.	.	PUNCT	sent	_	19	punct	_	_
+
+# sent_id = 14459.vislcg:2:41
+# text = Ӑна республикӑри шкулсенче кӗҫӗн классенче вӗренекен ачасем валли йӗркеленӗ.
+1	Ӑна	вӑл	PRON	prn	Case=Dat|Number=Sing|Person=3|PronType=Prs	9	dep	_	_
+2	республикӑри	республика	NOUN	n	Case=Loc	3	amod	_	_
+3	шкулсенче	шкул	NOUN	n	Case=Loc|Number=Plur	6	obl	_	_
+4	кӗҫӗн	кӗҫӗн	ADJ	adj	_	5	amod	_	_
+5	классенче	класс	NOUN	n	Case=Loc|Number=Plur	6	obl	_	_
+6	вӗренекен	вӗрен	VERB	v	Tense=Past|VerbForm=Part	7	acl	_	_
+7	ачасем	ача	NOUN	n	Case=Nom|Number=Plur	9	obl	_	_
+8	валли	валли	ADP	post	_	7	case	_	_
+9	йӗркеленӗ	йӗркелен	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	0	root	_	_
+10	.	.	PUNCT	sent	_	9	punct	_	_
+
+# sent_id = 14459.vislcg:3:62
+# text =  Елкӑри вӑйӑ-конкурс йӑлтах чӑвашла пулнӑ.
+# text[eng] = The competitive games in the festival were completely in Chuvash.
+1	Елкӑри	елка	NOUN	n	Case=Loc	4	amod	_	_
+2	вӑйӑ	вӑйӑ	NOUN	n	Case=Nom	4	compound	_	_
+3	-	-	PUNCT	guio	_	4	punct	_	_
+4	конкурс	конкурс	NOUN	n	Case=Nom	7	nsubj	_	_
+5-6	йӑлтах	_	_	_	_	_	_	_	_
+5	йӑлтах	йӑлт	ADJ	adj	_	7	amod	_	_
+6	ах	ах	PART	emph	_	5	advmod	_	_
+7	чӑвашла	чӑвашла	ADJ	adj	_	0	root	_	_
+8	пулнӑ	пул	AUX	v	Mood=Ind|Tense=Past|VerbForm=Fin	7	cop	_	_
+9	.	.	PUNCT	sent	_	7	punct	_	_
 

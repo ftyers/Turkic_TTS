@@ -1,4 +1,4 @@
-# sent_id = 17454:1:0
+# sent_id = 17376.vislcg:1:0
 # text = Унта паллӑ ҫӑлтӑрсене курма май пур.
 1	Унта	унта	ADV	adv	_	4	advmod	_	_
 2	паллӑ	паллӑ	ADJ	adj	_	3	amod	_	_
@@ -7,5 +7,4 @@
 5	май	май	NOUN	n	Case=Nom	6	nsubj	_	_
 6	пур	пур	ADJ	adj	_	0	root	_	_
 7	.	.	PUNCT	sent	_	6	punct	_	_
-
 

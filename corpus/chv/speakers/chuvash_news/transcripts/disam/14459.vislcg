@@ -41,81 +41,74 @@
 	"." sent @punct #20->19
 
 "<Ӑна>"
-	"ӑн" n dat
-	"вӑл" prn pers p3 sg dat
+	"вӑл" prn pers p3 sg dat @dep #1->9
 "<республикӑри>"
-	"республика" n loc attr @amod
+	"республика" n loc attr @amod #2->3
 "<шкулсенче>"
-	"шкул" n pl loc @obl
+	"шкул" n pl loc @obl #3->6
 "<кӗҫӗн>"
-	"кӗҫӗн" adj @amod
+	"кӗҫӗн" adj @amod #4->5
 "<классенче>"
-	"класс" n pl loc @obl
+	"класс" n pl loc @obl #5->6
 "<вӗренекен>"
-	"вӗренекен" n nom
+	"вӗрен" v iv gpr_past @acl #6->7
 "<ачасем>"
-	"ача" n pl nom
+	"ача" n pl nom @obl #7->9
 "<валли>"
-	"валли" post @case
+	"валли" post @case #8->7
 "<йӗркеленӗ>"
-	"йӗркелен" v tv fut p3 sg @root
+	"йӗркелен" v tv fut p3 sg @root #9->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #10->9
 
 "<Ҫавна>"
 	"ҫав" prn dem dat
 "<май>"
 	"май" post
 	"май" n nom
-	"май" n px3sp nom
 "<ачасем>"
 	"ача" n pl nom
 "<«>"
-	"«" lquot @punct
+	"«" lquot @punct #4->7
 "<Тӗлӗнтермӗш>"
-	"тӗлӗнтермӗш" adj
-	"тӗлӗнтермӗш" n nom
-	"тӗлӗнтермӗш" n px3sp nom
-;	"тӗлӗнтермӗш" adj advl REMOVE:34
+	"тӗлӗнтермӗш" adj @amod #5->
 "<Юр>"
-	"юр" n nom
+	"юр" n nom 
 "<Пике>"
 	"пике" n nom
 "<»>"
-	"»" rquot @punct
+	"»" rquot @punct #8->7
 "<конкурсра>"
-	"конкурс" n loc
+	"конкурс" n loc 
 "<та>"
-	"та" cnjcoo
+	"та" cnjcoo @cc #9->
 "<хӑйсен>"
-	"хӑйсем" prn ref gen
+	"хӑйсем" prn ref gen @nmod:poss #10->11
 "<пултарулӑхне>"
-	"*пултарулӑхне"
+	"пултарулӑх" n px3sp dat 
 "<кӑтартнӑ>"
-	"кӑтарт" v tv past @root
+	"кӑтарт" v tv past @root #12->0
 "<.>"
-	"." sent @punct
+	"." sent @punct #13->12
 
+# text[eng] = The competitive games in the festival were completely in Chuvash.
 "<Елкӑри>"
-	"елка" n loc attr
+	"елка" n loc attr @amod #1->4
 "<вӑйӑ>"
-	"вӑйӑ" n attr @compound
+	"вӑйӑ" n attr @compound #2->4
 "<->"
-	"-" guio @punct
+	"-" guio @punct #3->4
 "<конкурс>"
-	"конкурс" n nom @nsubj
+	"конкурс" n nom @nsubj #4->7
 "<йӑлтах>"
-	"йӑлт" adj
-		"ах" emph
-;	"йӑлт" adj advl REMOVE:34
-;		"ах" emph
+	"йӑлт" adj @amod #5->7
+		"ах" emph @advmod #6->5
 "<чӑвашла>"
-	"чӑвашла" adj
-	"чӑвашла" adv
+	"чӑвашла" adj @root #7->0
 "<пулнӑ>"
-	"пул" v iv past @cop
+	"пул" v iv past @cop #8->7
 "<.>"
-	"." sent @punct
+	"." sent @punct #9->7
 
 "<Маттур>"
 	"маттур" adj @amod
