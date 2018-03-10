@@ -1,4 +1,4 @@
-# sent_id = 17454.vislcg:1:0
+# sent_id = 17454:1:0
 # text =  Сцена ҫинче ултӑ хӗр тухнӑ.
 # text[eng] = Six girls came onto the stage.
 1	Сцена	сцена	NOUN	n	Case=Nom	2	nmod:case	_	_
@@ -7,4 +7,5 @@
 4	хӗр	хӗр	NOUN	n	Case=Nom	5	nsubj	_	_
 5	тухнӑ	тух	VERB	v	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
 6	.	.	PUNCT	sent	_	5	punct	_	_
+
 
