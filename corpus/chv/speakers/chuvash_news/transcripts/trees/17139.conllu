@@ -1,0 +1,8 @@
+# sent_id = 17139.vislcg:1:0
+# text =  Вӑл 22 ҫулта.
+# text[eng] = He is 22 years old.
+1	Вӑл	вӑл	PRON	prn	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	22	22	NUM	num	NumType=Card	3	nummod	_	_
+3	ҫулта	ҫул	NOUN	n	Case=Loc	0	root	_	_
+4	.	.	PUNCT	sent	_	3	punct	_	_
+

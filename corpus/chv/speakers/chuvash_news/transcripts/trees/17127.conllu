@@ -1,0 +1,6 @@
+# sent_id = 17127.vislcg:1:0
+# text =  Ӑҫта?
+# text[eng] = Where? 
+1	Ӑҫта	ӑҫта	ADV	adv	PronType=Int	0	root	_	_
+2	?	?	PUNCT	sent	_	1	punct	_	_
+

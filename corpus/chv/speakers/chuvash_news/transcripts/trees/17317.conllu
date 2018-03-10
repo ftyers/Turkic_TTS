@@ -1,0 +1,7 @@
+# sent_id = 17317.vislcg:1:0
+# text = Куратӑр-и?
+1-2	Куратӑр-и	_	_	_	_	_	_	_	_
+1	Куратӑр-и	кур	VERB	v	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	_	и	PART	qst	_	1	discourse	_	_
+3	?	?	PUNCT	sent	_	1	punct	_	_
+

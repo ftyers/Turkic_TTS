@@ -1,0 +1,29 @@
+# sent_id = 17264.vislcg:1:0
+# text =  Пирӗн ентешсем Пӗтӗм Раҫҫейри ӑмӑртура лайӑх кӑтартусемпе палӑрнӑ.
+# text[eng] = 
+1	Пирӗн	эпир	PRON	prn	Case=Gen|Number=Plur|Person=1|PronType=Prs	2	nmod:poss	_	_
+2	ентешсем	ентеш	NOUN	n	Case=Nom|Number=Plur|Number[psor]=Plur,Sing|Person[psor]=3	8	nsubj	_	_
+3	Пӗтӗм	пӗтӗм	ADJ	adj	_	4	amod	_	_
+4	Раҫҫейри	Раҫҫей	PROPN	np	Case=Loc	5	amod	_	_
+5	ӑмӑртура	ӑмӑрту	NOUN	n	Case=Loc	8	obl	_	_
+6	лайӑх	лайӑх	ADJ	adj	_	7	amod	_	_
+7	кӑтартусемпе	кӑтарту	NOUN	n	Case=Ins|Number=Plur	8	obl	_	_
+8	палӑрнӑ	палӑр	VERB	v	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	.	.	PUNCT	sent	_	8	punct	_	_
+
+# sent_id = 17264.vislcg:2:19
+# text =  Халӗ Чӑваш Енри аэробистсен пысӑк ушкӑнӗ Казахстана, Алма-Атана, кайма хатӗрленет.
+# text[eng] = Now a large group of aerobists in Chuvashia are preparing to go to Kazakhstan, to Almaty.
+1	Халӗ	халӗ	ADV	adv	_	11	advmod	_	_
+2	Чӑваш Енри	Чӑваш Ен	PROPN	np	Case=Loc	5	amod	_	_
+3	аэробистсен	аэробист	NOUN	n	Case=Gen|Number=Plur	5	nmod:gen	_	_
+4	пысӑк	пысӑк	ADJ	adj	_	5	amod	_	_
+5	ушкӑнӗ	ушкӑн	NOUN	n	Case=Nom|Number[psor]=Plur,Sing|Person[psor]=3	11	nsubj	_	_
+6	Казахстана	Казахстан	PROPN	np	Case=Dat	11	obl	_	_
+7	,	,	PUNCT	cm	_	8	punct	_	_
+8	Алма-Атана	Алма-Ата	PROPN	np	Case=Dat	11	obl	_	_
+9	,	,	PUNCT	cm	_	8	punct	_	_
+10	кайма	кай	VERB	v	_	11	xcomp	_	_
+11	хатӗрленет	хатӗрлен	VERB	v	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	.	.	PUNCT	sent	_	11	punct	_	_
+
